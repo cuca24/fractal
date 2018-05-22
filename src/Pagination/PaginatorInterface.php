@@ -61,4 +61,11 @@ interface PaginatorInterface
      * @return string
      */
     public function getUrl($page);
+
+    /**
+     * Get paginator
+     *
+     * @return mixed
+     */
+    public function getPaginator();
 }
