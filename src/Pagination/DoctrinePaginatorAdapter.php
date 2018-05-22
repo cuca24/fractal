@@ -115,4 +115,14 @@ class DoctrinePaginatorAdapter implements PaginatorInterface
     {
         return $this->routeGenerator;
     }
+
+    /**
+     * Get the paginator instance.
+     *
+     * @return Paginator
+     */
+    public function getPaginator()
+    {
+        return $this->paginator;
+    }
 }
